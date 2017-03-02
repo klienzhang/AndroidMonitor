@@ -32,6 +32,7 @@ public class AndroidTaskUtil{
         ActivityManager manager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
         ActivityManager.MemoryInfo info = new ActivityManager.MemoryInfo();
         manager.getMemoryInfo(info);
+        System.out.print("ok");
         return info.availMem;
     }
 
