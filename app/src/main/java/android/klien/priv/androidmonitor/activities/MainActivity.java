@@ -95,7 +95,7 @@ public class MainActivity extends Activity {
                 PendingIntent mainPendingIntent = PendingIntent.getActivity(MainActivity.this, 0, mainIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
                 Notification.Builder builder = new Notification.Builder(MainActivity.this)
-                        .setSmallIcon(R.drawable.__leak_canary_icon)
+                        //.setSmallIcon(R.drawable.__leak_canary_icon)
                         .setContentTitle("title oasd")
                         .setContentText("Content oasdsf")
                         .setContentIntent(mainPendingIntent);
